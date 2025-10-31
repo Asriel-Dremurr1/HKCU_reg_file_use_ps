@@ -65,6 +65,7 @@ Automatically detect the interactive user and apply the `.reg` file:
 
 ## 📝 How It Works
 
+0. Log Off from other Users. Else the registry may apply to another user.
 1. Verifies that the script is running as Administrator
 2. Resolves the target user’s SID
 3. Locates the user's profile directory and `NTUSER.DAT`
@@ -82,6 +83,7 @@ Automatically detect the interactive user and apply the `.reg` file:
 
 * Be careful when applying registry settings to other users—incorrect modifications may affect login, UI behavior, or policies.
 * If the target user has never logged in, their profile (and NTUSER.DAT) may not exist.
+* Log Off from other Users. Else the registry may apply to another user.
 
 ---
 
@@ -90,6 +92,3 @@ Automatically detect the interactive user and apply the `.reg` file:
 **Stable and ready for administrative automation.**
 
 ---
-
-If you want, I can also generate a shorter version, add formatting, or create a GitHub-friendly version with badges.
-
