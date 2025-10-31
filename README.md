@@ -86,9 +86,3 @@ Automatically detect the interactive user and apply the `.reg` file:
 * Log Off from other Users. Else the registry may apply to another user.
 
 ---
-
-## ✅ Status
-
-**Stable and ready for administrative automation.**
-
----
